@@ -24,6 +24,7 @@ public class AppController {
         return "<h1 style='color:blue;'> hello swu!!!!!!</h1>";
     }
 
+    
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
         MessageDigest md = MessageDigest.getInstance("MD5");
         md.update(input.getBytes());
